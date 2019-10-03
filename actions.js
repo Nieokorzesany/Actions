@@ -1,10 +1,10 @@
 import uuid from "uuid";
 
-export const CREATE_COMMENT = "app/comments/CREATE_COMMENT";
-export const EDIT_COMMENT = "app/comments/EDIT_COMENT";
-export const REMOVE_COMMENT = "app/comments/REMOVE_COMMENT";
-export const THUMB_UP_COMMENT = "app/comments/THUMB_UP_COMMENT";
-export const THUMB_DOWN_COMMENT = "app/comments/THUMB_DOWN_COMMENT";
+const CREATE_COMMENT = "app/comments/CREATE_COMMENT";
+const EDIT_COMMENT = "app/comments/EDIT_COMENT";
+const REMOVE_COMMENT = "app/comments/REMOVE_COMMENT";
+const THUMB_UP_COMMENT = "app/comments/THUMB_UP_COMMENT";
+const THUMB_DOWN_COMMENT = "app/comments/THUMB_DOWN_COMMENT";
 
 function createComment(text) {
   return {
