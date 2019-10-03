@@ -4,7 +4,7 @@ import { REMOVE_COMMENT } from "./actions";
 import { THUMB_UP_COMMENT } from "./actions";
 import { THUMB_DOWN_COMMENT } from "./actions";
 
-export function comment(state = initialState, action) {
+export function comments(state = initialState, action) {
   switch (action.type) {
     case ADD_COMMENT:
       return {
